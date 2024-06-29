@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    padding-top: 70px;
+}
+.header {
+    height:60px;
+    background-image: url(bgg.png);
+    background-position:center;
+    background-size: cover;
+    position: fixed; 
+    top: 0; left: 0; right: 0;
+    display: flex;
+    z-index: 100;
+}
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #93EBFF, #FF9259, #FFD910); /* Gradient color */
+}
+
+.header_left{
+    width: 15%;
+    color: white;
+    font-weight: semi-bold;
+    font-size: larger;
+    text-align: center;
+}
+/* HERE border mr color htae yan. color gradient ko nr ll ag kyi y ml */
+.header_mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    font-weight: semi-bold;
+    font-size: larger;
+    padding-left:10%;
+    min-width: 500px;
+}
+.header_mid a{
+    color: white;
+    text-decoration: none;
+    margin-right:50px;
+}
+.header_right{
+    display: flex;
+    width: 20%;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5px;
+}
+.icon {
+    fill: url(#gradient); /* Reference the gradient */
+}
+.rtsvg{
+    margin-right: 10px;
+}
+
+/*gradient text */
+.gradient_text{
+    background-image: linear-gradient(to right, #93EBFF, #FFD910, #FF4BA2);
+    display: inline-block; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;  
+}

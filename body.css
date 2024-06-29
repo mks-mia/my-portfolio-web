@@ -1,0 +1,195 @@
+.intro{
+    display: flex;
+    justify-content: space-around;
+    height: 650px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.intro_lt{
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 55%;
+}
+button {
+    background: linear-gradient(to right, #93ebff, #FFD910, #FF4BA2);
+    border: 2px solid white;
+    padding: 10px 15px;
+    font-weight:500;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+    box-shadow: inset 2px 3px 10px 2px white;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+  }
+  button:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+  }
+  .intro_rt{
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+  }
+  .image{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .image img{
+    width: 100%;
+    height: auto;
+    object-fit:cover ;
+    object-position: center center;
+    transform: scale(1.8);
+  }
+
+  .about_me{
+    margin: 0 50px ;
+  }
+  #about_me_text{
+    font-size: 18px;
+    color: white;
+  }
+#years_txt{
+  color: white; 
+  margin-right: 54px;
+  font: italic normal 20px 'Times New Roman';
+  padding-bottom: 0;
+}
+.year_icon{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 25px;
+}
+
+/*vertical line gradient*/
+.uni_box{
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+.vertical_line {
+  min-width: 100px;
+  height: 100%;
+  border-width: 0;
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-image: linear-gradient(to bottom, #93ebff,#FF4BA2, #FFD910) 1;
+} 
+#uni_info{
+  padding-left: 20px;
+  min-width: 500px;
+}
+
+/*horizontal line gradient*/
+.line_header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.gradient_line{
+  flex-grow: 1;
+  height: 3px;
+  background: linear-gradient(to right,#93ebff, #feb47b, #ff7e5f); 
+}
+.line_header h2{
+  white-space: nowrap;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+/*icon*/
+.circle_icon{
+  height: 12px; width: 12px;
+  border-radius: 50%;
+  border : 1.5px solid white;
+  background: linear-gradient(45deg,#93ebff, #FF4BA2, #FFD910);
+  box-shadow: inset 1px 1px 3px 0 white;
+  display: inline-block;
+  }
+
+.skills_box{
+  display:flex;
+} 
+
+/*skills box*/
+.skills_icon{
+  width: 100px; height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 0.3px solid lightgray;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-right: 12px;
+}
+
+.languages_name{
+  display: flex;
+  justify-content: start;
+}
+.languages_lvl p{
+  color:white;
+  margin:0px;
+  margin-bottom: 14px;
+}
+.languages_name_box p{
+  font-size: large;
+  font-weight: bold;
+  color:white;
+  margin:0px;
+  margin-bottom: 11.5px;
+}
+.line_plain{
+  background-color: white;
+  width: 184px; height: 7px;
+  margin-bottom: 25px;
+  padding-top: 1.5px;
+}
+
+.contact_container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.contact_container_lower{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact_box{
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 250px; height: 30px;
+  justify-content: center;
+  align-items: center;
+  min-width: 210px;
+}
+.contact_box a{
+  color: white;
+}
+.textsvg{
+  display: flex;
+}
+.project_upper, .project_lower{
+  display: flex;
+  justify-content: space-evenly;
+}
+.project p, .project a{
+  color: white;
+}
+.project_box{
+  width: 400px;
+  border-radius: 20px;
+  border: 3px solid white; 
+  padding: 5px 15px;
+}
